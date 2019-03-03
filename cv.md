@@ -17,6 +17,7 @@
 - VS Code
 - Webpack
 - Photoshop(basic)
+- English level(A2)
 
 # Code examples
 
