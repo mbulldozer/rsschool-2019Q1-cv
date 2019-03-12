@@ -1,0 +1,266 @@
+html, body {
+    background: #1e1e1e;
+    font-family: 'Lato', helvetica, arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+.header, .main, .footer {
+    max-width: 960px;
+    background: #ededed;
+    margin: 0px auto;
+}
+
+.header-wrap {
+    padding: 25px 35px;
+}
+
+.photo {
+    width: 12.5%;
+    display: inline-block; 
+    margin-right: 30px;
+}
+
+.header-wrap img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.personal-info {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: -6px;
+}
+
+h1:hover {
+    font-size: 25px;
+    color: #be3e0d;
+}
+
+h2 {
+    font-size: 18px;
+    margin-left: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.personal-contact {
+    float: right;
+}
+
+.contact-list {
+    list-style-type: none;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+    color: #cf8a05;
+}
+
+.main-wrap {
+    margin-top: 20px;
+    padding: 0 45px;
+}
+
+section {
+    border-bottom: 1px solid #808080;
+    padding: 20px 0 0;
+}
+
+section:last-child {
+    border-style: none;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #cf8a05;
+}
+
+p {
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.article-header {
+    float: left;
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #808080;
+}
+
+.article-info {
+    float: right;
+    width: 70%;
+}
+
+.clear {
+    clear: both;
+}
+
+.skills-list {
+    padding-left: 0;
+    margin-bottom: 35px;
+}
+.skills-list li {
+    display: inline;
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.skills-list li:hover {
+    font-size: 17px;
+    color: #47cf73;
+}
+
+.examples-list {
+    padding-left: 0;
+    list-style: none;
+    font-family: "Lucida Sans";
+}
+.examples-list li {
+    position: relative;
+    padding: 20px 0 20px 30px;
+    color: #D29D25;
+    font-variant: small-caps;
+    font-weight: bold;
+    cursor: pointer;
+}
+.examples-list li:before {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #4F5151;
+    content: "";
+    left: 0;
+    transition: .3s ease-in-out;
+    top: 27px;
+}
+.examples-list li:after {
+    position: absolute;
+    border-left: 1px dotted #4F5151;
+    width: 1px;
+    bottom: -12px;
+    content: "";
+    left: 3px;
+    top: 48px;
+}
+.examples-list li:hover:before {
+    box-shadow: 0 0 0 10px rgba(0,0,0,.2)
+}
+.examples-list li:last-child:after {
+    content: none;
+}
+
+h4 {
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.education p {
+    text-align: right;
+    font-family: "Lucida Sans";
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.education p:hover {
+    animation: doubleShift 3s ease-in-out;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+.footer-copyright span {
+    font-weight: bold;
+    text-shadow: 0 0 15px #999;
+    color: transparent;
+    transition: all .5s;
+}
+
+.footer-copyright span:hover {
+    text-shadow: 0 0 0 #333;
+}
+
+@-webkit-keyframes doubleShift {
+    0% {
+        margin-right: 0;
+    }
+  
+    50% {
+        margin-right: 350px;
+    }
+  
+    100% {
+        margin-right: 0;
+    }
+  }
+  
+  @-moz-keyframes doubleShift {
+    0% {
+        margin-right: 0;
+    }
+  
+    50% {
+        margin-right: 350px;
+    }
+  
+    100% {
+        margin-right: 0;
+    }
+  }
+  
+  @-o-keyframes doubleShift {
+    0% {
+        margin-right: 0;
+    }
+  
+    50% {
+        margin-right: 350px;
+    }
+  
+    100% {
+        margin-right: 0;
+    }
+  }
+  
+  @keyframes doubleShift {
+    0% {
+        margin-right: 0;
+    }
+  
+    50% {
+        margin-right: 350px;
+    }
+  
+    100% {
+        margin-right: 0;
+    }
+  }
