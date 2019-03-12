@@ -1,0 +1,68 @@
+html, body {
+    background: #1e1e1e;
+    font-family: 'Lato', helvetica, arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+header {
+    max-width: 960px;
+    background: #f8f8fa;
+    margin: 0px auto;
+}
+
+.header-wrap {
+    padding: 25px 35px;
+    border-bottom: 2px solid #cf8a05;
+    background: #ededed;
+}
+
+.photo {
+    width: 12.5%;
+    display: inline-block; 
+    margin-right: 30px;
+}
+
+.header-wrap img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.personal-info {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: -6px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-left: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.personal-contact {
+    float: right;
+}
+
+.contact-list {
+    list-style-type: none;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+    color: #cf8a05;
+}
